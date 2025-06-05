@@ -1,7 +1,78 @@
-<img src="firstlayer-logo-black-gold.jpg" alt="First Layer Logo" width="200">
-<div class="welcome-section">
-  <img src="firstlayer-logo-black-gold.jpg" alt="First Layer Logo" class="logo">
-  <h1>مرحبًا بكم في First Layer</h1>
-  <p class="tagline">تصاميم فاخرة تجمع بين الحداثة والتراث</p>
-  <a href="products.html" class="cta-button">اكتشف المجموعة</a>
-</div>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Layer</title>
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        
+        .logo-container {
+            margin-bottom: 30px;
+        }
+        
+        .logo {
+            width: 150px; /* تم تصغير الحجم */
+            height: auto;
+            transition: transform 0.3s;
+        }
+        
+        .logo:hover {
+            transform: scale(1.05);
+        }
+        
+        h1 {
+            color: #D4AF37;
+            margin: 10px 0;
+            font-size: 24px;
+        }
+        
+        .tagline {
+            color: #555;
+            font-size: 18px;
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #000;
+            color: #D4AF37;
+            padding: 10px 25px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .cta-button:hover {
+            background-color: #D4AF37;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <img src="firstlayer-logo-black-gold.jpg" alt="First Layer Logo" class="logo">
+        <h1>FIRST LAYER</h1>
+    </div>
+    
+    <div class="text-content">
+        <p class="tagline">مرحباً بكم في First Layer</p>
+        <p class="tagline">تصاميم فاخرة تجمع بين الحداثة والتراث</p>
+        <a href="#" class="cta-button">اكتشف المجموعة</a>
+    </div>
+</body>
+</html>
